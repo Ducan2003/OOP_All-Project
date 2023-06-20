@@ -1,7 +1,7 @@
 package Bai9;
 
 import java.util.Scanner;
-import Bai9.CDList;
+
 
 public class Test9 {
 	public static void main(String[] args) {
@@ -34,6 +34,7 @@ public class Test9 {
 					l.InmangCD();
 				} 
 				else if (luachon == 3){
+					System.out.println("So luong bai hat: ");
 					l.Tinhsoluong();
 					}
 				else if (luachon == 4) {
