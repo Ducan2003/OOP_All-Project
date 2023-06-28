@@ -6,7 +6,7 @@ public class Test10 {
 	public static void main(String[]  args) throws Exception {
 		Order o1 = new Order();
 		o1.setOrderID(21102991);
-		o1.setLineItems(o1);
+		//o1.setLineItems(o1);
 		OrderDetail od1 = new OrderDetail();
 		od1.setProduct("Gao");;
 		od1.setQuality(3);
@@ -24,9 +24,9 @@ public class Test10 {
 		pr1.setPrice(8.000);
 		pr2.setPrice(12.000);
 		pr3.setPrice(18.000);
-		System.out.println("Ma HD:" +o1.toString());
+		System.out.println(o1.toString());
 		System.out.println("Ngay lap hoa don: " +LocalDate.of(2012, 9, 18));
-		System.out.println(String.format("%-10s %-10s %15s %-20s ", "STT", "Masp", "Mo Ta", "Don Gia"));
+		System.out.println(String.format("%-20s %-10s %-10s %15s %-20s ", "STT", "Tensp", "Masp", "Mo Ta", "Don Gia"));
 		System.out.println("===============================================================================");
 		System.out.println(od1.toString());
 		System.out.println(pr1.toString());

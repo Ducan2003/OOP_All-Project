@@ -43,6 +43,6 @@ public class Order {
 	}
 	@Override
 	public String toString() {
-		return "Order [Ma Hoa Don\n " + orderID + ", Ngay lap hoa don" + orderDate + "]";
+		return "Ma HD: " + orderID  + orderDate;
 	}
 }

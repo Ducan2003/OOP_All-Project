@@ -1,4 +1,4 @@
-package Bai9;
+package Bai8;
 
 public class CDTest {
 	private int id;

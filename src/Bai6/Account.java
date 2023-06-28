@@ -78,7 +78,6 @@ public class Account {
 		else
 			return false;
 	}
-
 	public String toString() {
 		String Tienlai = formatter.format(balance);
 		return String.format("%5d %15s %10s", accountNumber, name, Tienlai);
